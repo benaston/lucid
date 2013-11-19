@@ -29,7 +29,7 @@ html .uneditable-input {
     transition: border linear 0.2s;
 }
 
-input[type=radio]:not(:checked)+label:hover {
+input[type=radio]:not(:checked) + label:hover {
     border-color: rgba(255, 200, 0, 0.3);
 }
 

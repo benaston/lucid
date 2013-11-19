@@ -52,10 +52,12 @@ h1.logo {
     font-family: "proxima-nova-500";
     margin-top: 20px;
 }
+
 h2.logo {
     font-size: 0.8rem;
     font-family: "proxima-nova-500";
 }
+
 body, p {
     font-family: "proxima-nova-400", Arial, sans-serif;
     font-size: 100%;
@@ -93,9 +95,11 @@ h2 {
 .itemMetadata h3 {
     text-align: right;
 }
+
 .centered-text {
     text-align: center;
 }
+
 h3 {
     margin: 10px 0;
     line-height: 21px;
@@ -171,8 +175,6 @@ textarea {
     border-radius: 5px;
 }
 
-
-
 a {
     color: #08c;
     text-decoration: none;
@@ -211,34 +213,46 @@ a:hover {
 }
 
 th, td {
-    text-align:left;
+    text-align: left;
 }
+
 th {
     font-style: italic;
-    font-weight:bold;
+    font-weight: bold;
 }
+
 li {
     margin-bottom: 7px;
 }
+
 .font-size-smallest {
-    font-size:.75rem;
-}.font-size-smaller {
-    font-size:.80rem;
-}.font-size-small {
-    font-size:.85rem;
+    font-size: .75rem;
 }
+
+.font-size-smaller {
+    font-size: .80rem;
+}
+
+.font-size-small {
+    font-size: .85rem;
+}
+
 .font-size-normal {
-    font-size:1rem;
+    font-size: 1rem;
 }
+
 .font-size-large {
-    font-size:1.2rem;
+    font-size: 1.2rem;
 }
+
 .font-size-larger {
-    font-size:1.4rem;
+    font-size: 1.4rem;
 }
+
 .font-size-largest {
-    font-size:2rem;
+    font-size: 2rem;
 }
+
 pre {
     display: block;
     padding: 9.5px;
