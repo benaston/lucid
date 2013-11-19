@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/lucid-style-form-elements.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/lucid-style-animation.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/lucid-style-items.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/lucid-style-buttons.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/lucid-style-showcase.css">
 </head>
 <body>
@@ -36,19 +37,41 @@
                 <td>
                     <table class="table-bordered">
                         <tr>
-                            <th>Table</th>
-                            <th>class=""</th>
-                            <th>Description</th>
+                            <th>foo</th>
+                            <th>bar</th>
+                            <th>baz</th>
                         </tr>
                         <tr>
-                            <td>
-                                <p>Paragraph</p>
-                            </td>
+                            <td>a</td>
+                            <td>b</td>
+                            <td>c</td>
+                        </tr>
+                        <tr>
+                            <td>d</td>
+                            <td>e</td>
+                            <td>f</td>
                         </tr>
                     </table>
                 </td>
                 <td>
-                    <code>table-bordered</code>
+                    <pre>
+&lt;table class=&quot;table-bordered&quot;&gt;
+    &lt;tr&gt;
+        &lt;th&gt;foo&lt;/th&gt;
+        &lt;th&gt;bar&lt;/th&gt;
+        &lt;th&gt;baz&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;a&lt;/td&gt;
+        &lt;td&gt;b&lt;/td&gt;
+        &lt;td&gt;c&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;d&lt;/td&gt;
+        &lt;td&gt;e&lt;/td&gt;
+        &lt;td&gt;f&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</pre>
                 </td>
                 <td>Table with headers.</td>
             </tr>
@@ -56,19 +79,41 @@
                 <td>
                     <table class="table-bordered table-striped">
                         <tr>
-                            <th>Table</th>
-                            <th>class=""</th>
-                            <th>Description</th>
+                            <th>foo</th>
+                            <th>bar</th>
+                            <th>baz</th>
                         </tr>
                         <tr>
-                            <td>
-                                <p>Paragraph</p>
-                            </td>
+                            <td>a</td>
+                            <td>b</td>
+                            <td>c</td>
+                        </tr>
+                        <tr>
+                            <td>d</td>
+                            <td>e</td>
+                            <td>f</td>
                         </tr>
                     </table>
                 </td>
                 <td>
-                    <code>table-bordered table-striped</code>
+                    <pre>
+&lt;table class=&quot;table-bordered table-striped&quot;&gt;
+    &lt;tr&gt;
+        &lt;th&gt;foo&lt;/th&gt;
+        &lt;th&gt;bar&lt;/th&gt;
+        &lt;th&gt;baz&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;a&lt;/td&gt;
+        &lt;td&gt;b&lt;/td&gt;
+        &lt;td&gt;c&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;d&lt;/td&gt;
+        &lt;td&gt;e&lt;/td&gt;
+        &lt;td&gt;f&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</pre>
                 </td>
                 <td>Table with headers and stripes.</td>
             </tr>
@@ -84,39 +129,43 @@
             </tr>
             <tr>
                 <td>
-                    <p>Paragraph</p></td>
-                <td><code>p</code></td>
+                    <p>Paragraph</p>
+                </td>
+                <td><code>&lt;p&gt;Paragraph&lt;/p&gt;</code></td>
                 <td>Paragraph text.</td>
             </tr>
             <tr>
                 <td>
                     <h1>Heading 1</h1></td>
-                <td><code>h1</code></td>
+                <td><code>&lt;h1&gt;Heading 1&lt;/h1&gt;</code></td>
                 <td>Heading 1</td>
             </tr>
             <tr>
                 <td>
                     <h2>Heading 2</h2></td>
-                <td><code>h2</code></td>
+                <td><code>&lt;h2&gt;Heading 2&lt;/h2&gt;</code></td>
                 <td>Heading 2</td>
             </tr>
             <tr>
                 <td>
                     <h3>Heading 3</h3></td>
-                <td><code>h3</code></td>
+                <td><code>&lt;h3&gt;Heading 3&lt;/h3&gt;</code></td>
                 <td>Heading 3</td>
             </tr>
             <tr>
                 <td>
                     <blockquote>Blockquote</blockquote>
                 </td>
-                <td><code>blockquote</code></td>
+                <td><pre>
+&lt;blockquote&gt;
+    Blockquote
+&lt;/blockquote&gt;</pre></td>
                 <td>Blockquote</td>
             </tr>
             <tr>
                 <td>
                     <a href="#">Anchor</a></td>
-                <td><code>a</code></td>
+                <td><code>&lt;a href=&quot;#&quot;&gt;Anchor&lt;/a&gt;</code></td>
                 <td>Anchor</td>
             </tr>
             <tr>
@@ -128,13 +177,12 @@
             <tr>
                 <td>
                     <pre>
-    Code
-    (multi-line)
-    </pre>
+Code
+(multi-line)</pre>
                 </td>
                 <td><pre>
-    &lt;pre&gt;Code
-    (multi-line)&lt;/pre&gt;</pre>
+&lt;pre&gt;Code
+(multi-line)&lt;/pre&gt;</pre>
                 </td>
                 <td>Code (multi-line)</td>
             </tr>
@@ -143,7 +191,7 @@
                     <input type="text" placeholder="input type='text'"/>
                 </td>
                 <td>
-                    <code>input type="text"</code>
+                    <code>&lt;input type=&quot;text&quot; placeholder=&quot;input type='text'&quot;/&gt;</code>
                 </td>
                 <td>Text Input</td>
             </tr>
@@ -152,7 +200,7 @@
                     <input type="password" placeholder="input type='password'"/>
                 </td>
                 <td>
-                    <code>input type="password"</code>
+                    <code>&lt;input type=&quot;password&quot; placeholder=&quot;input type='password'&quot;/&gt;</code>
                 </td>
                 <td>Password Input</td>
             </tr>
@@ -161,62 +209,71 @@
                     <input type="email" placeholder="input type='email'"/>
                 </td>
                 <td>
-                    <code>input type="email"</code>
+                    <code>&lt;input type=&quot;email&quot; placeholder=&quot;input type='email'&quot;/&gt;</code>
                 </td>
                 <td>Email Input</td>
             </tr>
             <tr>
                 <td>
+                    <textarea placeholder="placeholder..."></textarea>
+                </td>
+                <td>
+                    <code>&lt;textarea placeholder=&quot;placeholder...&quot;&gt;&lt;/textarea&gt;</code>
+                </td>
+                <td>Text area</td>
+            </tr>
+            <tr>
+                <td>
                     <hr/>
-                <td><code>hr</code></td>
+                <td><code>&lt;hr/&gt;</code></td>
                 <td>Horizontal Line</td>
             </tr>
             <tr>
                 <td>
                     <div class="label-btn">Button Label</div>
-                <td><code>label-btn</code></td>
+                <td><code>&lt;div class=&quot;label-btn&quot;&gt;Button Label&lt;/div&gt;</code></td>
                 <td>Button Label</td>
             </tr>
             <tr>
                 <td>
-                    <div class="font-size-small">Smallest Font</div>
-                <td><code>font-size-smallest</code></td>
+                    <div class="font-size-smallest">Smallest Font</div>
+                <td><code>&lt;div class=&quot;font-size-small&quot;&gt;Smallest Font&lt;/div&gt;</code></td>
                 <td>Smallest Font</td>
             </tr>
             <tr>
                 <td>
-                    <div class="font-size-small">Smaller Font</div>
-                <td><code>font-size-smaller</code></td>
+                    <div class="font-size-smaller">Smaller Font</div>
+                <td><code>&lt;div class=&quot;font-size-smaller&quot;&gt;Smaller Font&lt;/div&gt;</code></td>
                 <td>Smaller Font</td>
             </tr>
             <tr>
                 <td>
                     <div class="font-size-small">Small Font</div>
-                <td><code>font-size-small</code></td>
+                <td><code>&lt;div class=&quot;font-size-small&quot;&gt;Small Font&lt;/div&gt;</code></td>
                 <td>Small Font</td>
             </tr>
             <tr>
                 <td>
-                    <div class="font-size-small">Normal Font</div>
-                <td><code>font-size-normal</code></td>
+                    <div class="font-size-normal">Normal Font</div>
+                <td><code>&lt;div class=&quot;font-size-normal&quot;&gt;Normal Font&lt;/div&gt;</code></td>
                 <td>Normal Font</td>
             </tr>
             <tr>
                 <td>
                     <div class="font-size-large">Large Font</div>
-                <td><code>font-size-large</code></td>
+                <td><code>&lt;div class=&quot;font-size-small&quot;&gt;Large Font&lt;/div&gt;</code></td>
                 <td>Large Font</td>
             </tr>
             <tr>
                 <td>
                     <div class="font-size-larger">Larger Font</div>
-                <td><code>font-size-larger</code></td>
+                <td><code>&lt;div class=&quot;font-size-larger&quot;&gt;Larger Font&lt;/div&gt;</code></td>
                 <td>Larger Font</td>
             </tr>
             <tr>
                 <td>
                     <div class="font-size-largest">Largest Font</div>
-                <td><code>font-size-largest</code></td>
+                <td><code>&lt;div class=&quot;font-size-largest&quot;&gt;Largest Font&lt;/div&gt;</code></td>
                 <td>Largest Font</td>
             </tr>
         </table>
@@ -235,7 +292,7 @@
                     <input type="text" placeholder="input type='text'"/>
                 </td>
                 <td>
-                    <code>input type="text"</code>
+                    <code>&lt;input type=&quot;text&quot; placeholder=&quot;input type='text'&quot;/&gt;</code>
                 </td>
                 <td>Text Input</td>
             </tr>
@@ -244,7 +301,7 @@
                     <input type="password" placeholder="input type='password'"/>
                 </td>
                 <td>
-                    <code>input type="password"</code>
+                    <code>&lt;input type=&quot;password&quot; placeholder=&quot;input type='password'&quot;/&gt;</code>
                 </td>
                 <td>Password Input</td>
             </tr>
@@ -253,7 +310,7 @@
                     <input type="email" placeholder="input type='email'"/>
                 </td>
                 <td>
-                    <code>input type="email"</code>
+                    <code>&lt;input type=&quot;email&quot; placeholder=&quot;input type='email'&quot;/&gt;</code>
                 </td>
                 <td>Email Input</td>
             </tr>
@@ -278,7 +335,15 @@
                         </tbody>
                     </table>
                 </td>
-                <td><code>btn btn-100</code></td>
+                <td>
+                    <pre>
+&lt;input id=&quot;r200&quot; name=&quot;r&quot; type=&quot;radio&quot; checked=&quot;checked&quot;&gt;
+&lt;label class=&quot;radio&quot; for=&quot;r200&quot;&gt;a&lt;/label&gt;
+&lt;input id=&quot;r300&quot; name=&quot;r&quot; type=&quot;radio&quot;&gt;
+&lt;label class=&quot;radio&quot; for=&quot;r300&quot;&gt;b&lt;/label&gt;
+&lt;input id=&quot;r400&quot; name=&quot;r&quot; type=&quot;radio&quot;&gt;
+&lt;label class=&quot;radio&quot; for=&quot;r400&quot;&gt;c&lt;/label&gt;
+</pre></td>
                 <td>Radio Buttons</td>
             </tr>
         </table>
@@ -296,14 +361,14 @@
                 <td>
                     <button type="button" disabled="disabled" class="btn btn-80" value="s">s</button>
                 </td>
-                <td><code>btn btn-80</code></td>
+                <td><code>&lt;button type=&quot;button&quot; disabled=&quot;disabled&quot; class=&quot;btn btn-80&quot; value=&quot;s&quot;&gt;s&lt;/button&gt;</code></td>
                 <td>Disabled button</td>
             </tr>
             <tr>
                 <td>
                     <button type="button" class="btn btn-80" value="s">s</button>
                 </td>
-                <td><code>btn btn-80</code></td>
+                <td><code>&lt;button type=&quot;button&quot; class=&quot;btn btn-80&quot; value=&quot;s&quot;&gt;s&lt;/button&gt;</code></td>
                 <td>Default button</td>
             </tr>
             <tr>
@@ -314,8 +379,10 @@
                     </div>
                 </td>
                 <td><pre>
+&lt;div class=&quot;centered-text&quot;&gt;
     &lt;button type=&quot;button&quot; class=&quot;btn btn-80&quot; value=&quot;s&quot;&gt;s&lt;/button&gt;
-    &lt;div class=&quot;label&quot;&gt;search&lt;/div&gt;</pre>
+    &lt;div class=&quot;label&quot;&gt;search&lt;/div&gt;
+&lt;/div&gt;</pre>
                 </td>
                 <td>Default button with label</td>
             </tr>
@@ -323,14 +390,14 @@
                 <td>
                     <button type="button" class="btn btn-80 btn-primary">s</button>
                 </td>
-                <td><code>btn btn-80 btn-primary</code></td>
+                <td><code>&lt;button type=&quot;button&quot; class=&quot;btn btn-80 btn-primary&quot;&gt;s&lt;/button&gt;</code></td>
                 <td>Primary Button</td>
             </tr>
             <tr>
                 <td>
                     <button type="button" class="btn btn-80 btn-primary btn-two-tone">s</button>
                 </td>
-                <td><code>btn btn-80 btn-primary btn-two-tone</code></td>
+                <td><code>&lt;button type=&quot;button&quot; class=&quot;btn btn-80 btn-primary btn-two-tone&quot;&gt;s&lt;/button&gt;</code></td>
                 <td>Primary Button Two-Tone</td>
             </tr>
             <tr>
@@ -344,35 +411,35 @@
                 <td>
                     <button type="button" class="btn btn-80 btn-danger">s</button>
                 </td>
-                <td><code>btn btn-80 btn-danger</code></td>
+                <td><code>&lt;button type=&quot;button&quot; class=&quot;btn btn-80 btn-success&quot;&gt;s&lt;/button&gt;</code></td>
                 <td>Danger Button</td>
             </tr>
             <tr>
                 <td>
                     <button class="btn btn-40">s</button>
                 </td>
-                <td><code>btn btn-40</code></td>
+                <td><code>&lt;button class=&quot;btn btn-40&quot;&gt;s&lt;/button&gt;</code></td>
                 <td>Small</td>
             </tr>
             <tr>
                 <td>
                     <button class="btn btn-50">s</button>
                 </td>
-                <td><code>btn btn-50</code></td>
+                <td><code>&lt;button class=&quot;btn btn-50&quot;&gt;s&lt;/button&gt;</code></td>
                 <td>Medium-Small</td>
             </tr>
             <tr>
                 <td>
                     <button class="btn btn-80">s</button>
                 </td>
-                <td><code>btn btn-80</code></td>
+                <td><code>&lt;button class=&quot;btn btn-80&quot;&gt;s&lt;/button&gt;</code></td>
                 <td>Medium</td>
             </tr>
             <tr>
                 <td>
                     <button class="btn btn-100">s</button>
                 </td>
-                <td><code>btn btn-100</code></td>
+                <td><code>&lt;button class=&quot;btn btn-100&quot;&gt;s&lt;/button&gt;</code></td>
                 <td>Large</td>
             </tr>
             <tr>
@@ -383,11 +450,10 @@
                     </div>
                 </td>
                 <td><pre>
-    &lt;button class=&quot;btn btn-80 btn-success btn-rotating&quot;
-            data-is-waiting=&quot;true&quot;&gt;&lt;/button&gt;
-    &lt;span class=&quot;focus-indicator&quot;&gt;&lt;/span&gt;
-    &lt;span class=&quot;pictos button-icon&quot;&gt;3&lt;/span&gt;
-    </pre>
+&lt;button class=&quot;btn btn-80 btn-success btn-rotating&quot;
+        data-is-waiting=&quot;true&quot;&gt;&lt;/button&gt;
+&lt;span class=&quot;focus-indicator&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;pictos button-icon&quot;&gt;3&lt;/span&gt;</pre>
                 </td>
                 <td>Waiting Button</td>
             </tr>
@@ -406,31 +472,33 @@
             <tr>
                 <td>
                     <div class="thumbnail thumbnail-219">
-                        <h2>C# Developer / Technical Lead</h2>
-
-                        <p>&pound;475-550/day (more for excellent candidates)</p>
-
-                        <p>London</p>
-
-                        <p class="posted">2 days ago</p>
+                        <h2>foo bar bam</h2>
+                        <p>foo bar bam foo bar bam</p>
+                        <p>foo bar bam</p>
                     </div>
                 </td>
-                <td><code>...</code></td>
+                <td><pre>
+&lt;div class=&quot;thumbnail thumbnail-219&quot;&gt;
+    &lt;h2&gt;foo bar bam&lt;/h2&gt;
+    &lt;p&gt;foo bar bam foo bar bam&lt;/p&gt;
+    &lt;p&gt;foo bar bam&lt;/p&gt;
+&lt;/div&gt;</pre></td>
                 <td>Item Thumbnail</td>
             </tr>
             <tr>
                 <td>
                     <div class="thumbnail thumbnail-219 selected">
-                        <h2>C# Developer / Technical Lead</h2>
-
-                        <p>&pound;475-550/day (more for excellent candidates)</p>
-
-                        <p>London</p>
-
-                        <p class="posted">2 days ago</p>
+                        <h2>foo bar bam</h2>
+                        <p>foo bar bam foo bar bam</p>
+                        <p>foo bar bam</p>
                     </div>
                 </td>
-                <td><code>...</code></td>
+                <td><pre>
+&lt;div class=&quot;thumbnail thumbnail-219 selected&quot;&gt;
+    &lt;h2&gt;foo bar bam&lt;/h2&gt;
+    &lt;p&gt;foo bar bam foo bar bam&lt;/p&gt;
+    &lt;p&gt;foo bar bam&lt;/p&gt;
+&lt;/div&gt;</pre></td>
                 <td>Item Thumbnail (Selected)</td>
             </tr>
         </table>

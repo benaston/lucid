@@ -153,7 +153,8 @@ body {
 
 input[type='text'],
 input[type='email'],
-input[type='password'] {
+input[type='password'],
+textarea {
     font-size: 1rem;
     font-family: "proxima-nova-400", Arial;
     line-height: 35px;
