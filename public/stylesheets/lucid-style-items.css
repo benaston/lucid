@@ -1,0 +1,59 @@
+.thumbnail {
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    /*padding: 4px;*/
+}
+.thumbnail.selected:before {
+    box-shadow: 1px 5px 0px 0px rgba(0, 109, 204, 1);
+}
+.thumbnail:before {
+    content: '';
+    display: block;
+    width: 56px;
+    height: 56px;
+    border-bottom: 0;
+    border-right: 0;
+    border-radius: 0 0 11px 0;
+    position: absolute;
+    bottom: -13px;
+    right: -4px;
+    z-index: 999;
+    box-shadow: 1px 3px 0px 0px #eee;
+    -webkit-transition: box-shadow .1s linear;
+    /*z-index: -1;*/
+    pointer-events: none;
+}
+.thumbnail:after {
+    content: '';
+    display: block;
+    width: 56px;
+    height: 56px;
+    border-top: 0;
+    border-left: 0;
+    border-radius: 11px 0 0 0;
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    z-index: 999;
+    box-shadow: -1px -3px 0px 0px #eee;
+    -webkit-transition: box-shadow .1s linear;
+    /*z-index: -1;*/
+    pointer-events: none;
+}
+.thumbnail.selected:after {
+    box-shadow: -1px -5px 0px 0px rgba(0, 109, 204, 1);
+}
+.thumbnail:not(.selected):hover:before {
+    box-shadow: 1px 3px 0px 0px rgba(255, 200, 0, 0.3);
+}
+.thumbnail:not(.selected):hover:after {
+    box-shadow: -1px -3px 0px 0px rgba(255, 200, 0, 0.3);
+}
+.thumbnail-219 {
+    padding: 1px 12px 1px 12px;
+    margin: 15px 20px 25px 20px;
+}

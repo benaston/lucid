@@ -162,7 +162,7 @@ html .uneditable-input {
     box-shadow: none;
     border-radius: 0;
     margin: 20px 20px 0px 20px;
-    background: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
     border: none;
     border-bottom: 1px solid rgb(206, 214, 218);
     display: inline-block;
@@ -178,12 +178,16 @@ html .uneditable-input {
     /*box-shadow: 0 0 1px 12px rgba(255, 255, 255, 1), 0 0 1px 14px #eee; *//*note the fuzz of 1px here to avoid looking like a UI line*/
 /*}*/
 
+input[type=radio]:not(:checked)+label:hover {
+    border-color: rgba(255, 200, 0, 0.3);
+}
+
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="password"]:focus {
 /*border-bottom: 1px dashed rgba(0, 109, 204, 0.95);*/
 /*box-shadow: 0 0 1px 12px rgba(255, 255, 255, 1), 0 0 1px 14px #eee; /*note the fuzz of 1px here to avoid looking like a UI line*/
-background-color: white;
+/*background-color: white;*/
     }
 
 .field {
@@ -216,7 +220,7 @@ label.radio {
     width: 40px;
     border-radius: 40px;
     line-height: 35px;
-    border: 2px solid silver;
+    border: 2px solid #eee;
     text-align: center;
     display: block;
     box-sizing: border-box;

@@ -1,5 +1,5 @@
 .table-bordered {
-border: 1px solid rgb(206, 214, 218);
+border: 1px solid rgb(206, 214, 218); /*slightly darker than needed to cater for poor monitors*/
 border-collapse: separate;
 border-radius: 7px;
 }

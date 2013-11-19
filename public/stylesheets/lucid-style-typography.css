@@ -47,6 +47,15 @@
     font-style: normal;
 }
 
+h1.logo {
+    font-size: 3em;
+    font-family: "proxima-nova-500";
+    margin-top: 20px;
+}
+h2.logo {
+    font-size: 0.8rem;
+    font-family: "proxima-nova-500";
+}
 body, p {
     font-family: "proxima-nova-400", Arial, sans-serif;
     font-size: 100%;
