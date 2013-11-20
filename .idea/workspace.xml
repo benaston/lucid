@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c963ddb5-fc50-4b50-ba56-581c8af28eeb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
     </list>
     <ignored path="lucid.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,19 +70,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.ejs" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.ejs" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="501" column="40" selection-start="17200" selection-end="17200" vertical-scroll-proportion="-153.36734" vertical-offset="0" max-vertical-offset="8100">
+            <state line="529" column="31" selection-start="17957" selection-end="17957" vertical-scroll-proportion="0.752994" vertical-offset="7432" max-vertical-offset="8100">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="45" selection-start="111" selection-end="111" vertical-scroll-proportion="0.10273973" vertical-offset="0" max-vertical-offset="730">
+            <state line="5" column="45" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
               <folding />
             </state>
           </provider>
@@ -145,8 +145,8 @@
         <option value="$PROJECT_DIR$/public/stylesheets/lucid-style-items.css" />
         <option value="$PROJECT_DIR$/public/stylesheets/lucid-style-form-elements.css" />
         <option value="$PROJECT_DIR$/public/stylesheets/lucid-style-colors.css" />
-        <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/views/index.ejs" />
       </list>
     </option>
   </component>
@@ -377,16 +377,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="501" column="40" selection-start="17200" selection-end="17200" vertical-scroll-proportion="-153.36734" vertical-offset="0" max-vertical-offset="8100">
+        <state line="5" column="45" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="45" selection-start="111" selection-end="111" vertical-scroll-proportion="0.10273973" vertical-offset="0" max-vertical-offset="730">
+        <state line="529" column="31" selection-start="17957" selection-end="17957" vertical-scroll-proportion="0.752994" vertical-offset="7432" max-vertical-offset="8100">
           <folding />
         </state>
       </provider>
