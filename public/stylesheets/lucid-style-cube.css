@@ -20,7 +20,12 @@ figure {
     top: 20px;
 }
 
-#cube > input[type='radio'] {position:absolute; visibility:hidden; pointer-events:none;}
+#cube > input[type='radio'] {
+    position: absolute;
+    visibility: hidden;
+    pointer-events: none;
+}
+
 #topRadio:not(:checked) ~ .cube-controls .face-selector:nth-child(1):hover,
 #leftRadio:not(:checked) ~ .cube-controls .face-selector:nth-child(2):hover,
 #frontRadio:not(:checked) ~ .cube-controls .face-selector:nth-child(3):hover,
@@ -31,11 +36,11 @@ figure {
 }
 
 #topRadio:checked ~ .cube-controls .face-selector:nth-child(1),
-#leftRadio:checked ~  .cube-controls .face-selector:nth-child(2),
-#frontRadio:checked ~  .cube-controls .face-selector:nth-child(3),
-#rightRadio:checked ~  .cube-controls .face-selector:nth-child(4),
-#bottomRadio:checked ~  .cube-controls .face-selector:nth-child(5),
-#backRadio:checked ~  .cube-controls .face-selector:nth-child(6) {
+#leftRadio:checked ~ .cube-controls .face-selector:nth-child(2),
+#frontRadio:checked ~ .cube-controls .face-selector:nth-child(3),
+#rightRadio:checked ~ .cube-controls .face-selector:nth-child(4),
+#bottomRadio:checked ~ .cube-controls .face-selector:nth-child(5),
+#backRadio:checked ~ .cube-controls .face-selector:nth-child(6) {
     background-color: rgba(0, 109, 204, 0.95);
     box-shadow: 0 0 0 0px rgba(255, 255, 255, 1), 0 0 0 2px rgba(0, 109, 204, 1) !important;
     border: 2px solid white;
@@ -47,7 +52,7 @@ figure {
 .cube-container[data-selected-face-id='3'] .cube-controls .face-selector:nth-child(4) .spot,
 .cube-container[data-selected-face-id='4'] .cube-controls .face-selector:nth-child(5) .spot,
 .cube-container[data-selected-face-id='5'] .cube-controls .face-selector:nth-child(6) .spot {
-    box-shadow: 0 0 0 0px rgba(255,255,255,0.6)
+    box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.6)
 }
 
 .cube-container[data-selected-face-id='0'] .cube-controls .face-selector:nth-child(1) .spot.filled,
@@ -68,7 +73,7 @@ figure {
 #frontRadio:checked ~ .cube-face-labels li[for="f-f"],
 #rightRadio:checked ~ .cube-face-labels li[for="f-r"],
 #bottomRadio:checked ~ .cube-face-labels li[for="f-bottom"],
-#backRadio:checked ~  .cube-face-labels li[for="f-back"] {
+#backRadio:checked ~ .cube-face-labels li[for="f-back"] {
     display: block;
 }
 
@@ -144,22 +149,22 @@ figure {
     -webkit-transform: translateZ(-130px) rotateX(-180deg);
 }
 
-#topRadio:checked ~    .cube .top,
-#leftRadio:checked ~   .cube .left,
-#frontRadio:checked ~  .cube .front,
-#rightRadio:checked ~  .cube .right,
+#topRadio:checked ~ .cube .top,
+#leftRadio:checked ~ .cube .left,
+#frontRadio:checked ~ .cube .front,
+#rightRadio:checked ~ .cube .right,
 #bottomRadio:checked ~ .cube .bottom,
-#backRadio:checked ~   .cube .back {
+#backRadio:checked ~ .cube .back {
     opacity: 1;
     -webkit-transition: opacity .5s linear;
 }
 
-#topRadio:not(:checked) ~     .cube .top,
-#leftRadio:not(:checked) ~    .cube .left,
-#frontRadio:not(:checked) ~   .cube .front,
-#rightRadio:not(:checked) ~   .cube .right,
-#bottomRadio:not(:checked) ~  .cube .bottom,
-#backRadio:not(:checked) ~    .cube .back {
+#topRadio:not(:checked) ~ .cube .top,
+#leftRadio:not(:checked) ~ .cube .left,
+#frontRadio:not(:checked) ~ .cube .front,
+#rightRadio:not(:checked) ~ .cube .right,
+#bottomRadio:not(:checked) ~ .cube .bottom,
+#backRadio:not(:checked) ~ .cube .back {
     opacity: .05;
     -webkit-transition: opacity .5s linear;
 }
@@ -233,6 +238,7 @@ figure {
 .face-usage-indicator:hover {
     text-decoration: none;
 }
+
 .face-usage-indicator .spot {
     display: inline-block;
     width: 9px;
