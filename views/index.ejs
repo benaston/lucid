@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/lucid-style-items.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/lucid-style-buttons.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/lucid-style-showcase.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/lucid-style-cube.css">
 </head>
 <body>
 <article>
@@ -528,7 +529,76 @@ Code
             <th>Description</th>
         </tr>
         <tr>
-            <td>TODO: the cube.</td>
+            <td>
+
+                <section id="cube" class="cube-container" data-selected-face-id="0">
+                    <input type="radio" id="topRadio" name="selectedFace" checked="checked" />
+                    <input type="radio" id="leftRadio" name="selectedFace" />
+                    <input type="radio" id="frontRadio" name="selectedFace" />
+                    <input type="radio" id="rightRadio" name="selectedFace" />
+                    <input type="radio" id="bottomRadio" name="selectedFace" />
+                    <input type="radio" id="backRadio" name="selectedFace" />
+                    <div class="cube-controls">
+                        <label for="topRadio" class="face-selector"></label>
+                        <label for="leftRadio" class="face-selector"></label>
+                        <label for="frontRadio" class="face-selector"></label>
+                        <label for="rightRadio" class="face-selector"></label>
+                        <label for="bottomRadio" class="face-selector"></label>
+                        <label for="backRadio" class="face-selector"></label>
+                    </div>
+                    <div class="cube">
+                        <figure class="top"></figure>
+                        <figure class="left"></figure>
+                        <figure class="front"></figure>
+                        <figure class="right"></figure>
+                        <figure class="bottom"></figure>
+                        <figure class="back"></figure>
+                    </div>
+                    <ol class="cube-face-labels">
+                        <li for="f-t">face 1</li>
+                        <li for="f-l">face 2</li>
+                        <li for="f-f">face 3</li>
+                        <li for="f-r">face 4</li>
+                        <li for="f-bottom">face 5</li>
+                        <li for="f-back">face 6</li>
+                    </ol>
+                </section>
+
+            </td>
+            <td><pre>
+&#x3C;section id=&#x22;cube&#x22; class=&#x22;cube-container&#x22;&#x3E;
+    &#x3C;input type=&#x22;radio&#x22; id=&#x22;topRadio&#x22; name=&#x22;selectedFace&#x22; checked=&#x22;checked&#x22; /&#x3E;
+    &#x3C;input type=&#x22;radio&#x22; id=&#x22;leftRadio&#x22; name=&#x22;selectedFace&#x22; /&#x3E;
+    &#x3C;input type=&#x22;radio&#x22; id=&#x22;frontRadio&#x22; name=&#x22;selectedFace&#x22; /&#x3E;
+    &#x3C;input type=&#x22;radio&#x22; id=&#x22;rightRadio&#x22; name=&#x22;selectedFace&#x22; /&#x3E;
+    &#x3C;input type=&#x22;radio&#x22; id=&#x22;bottomRadio&#x22; name=&#x22;selectedFace&#x22; /&#x3E;
+    &#x3C;input type=&#x22;radio&#x22; id=&#x22;backRadio&#x22; name=&#x22;selectedFace&#x22; /&#x3E;
+    &#x3C;div class=&#x22;cube-controls&#x22;&#x3E;
+        &#x3C;label for=&#x22;topRadio&#x22; class=&#x22;face-selector&#x22;&#x3E;&#x3C;/label&#x3E;
+        &#x3C;label for=&#x22;leftRadio&#x22; class=&#x22;face-selector&#x22;&#x3E;&#x3C;/label&#x3E;
+        &#x3C;label for=&#x22;frontRadio&#x22; class=&#x22;face-selector&#x22;&#x3E;&#x3C;/label&#x3E;
+        &#x3C;label for=&#x22;rightRadio&#x22; class=&#x22;face-selector&#x22;&#x3E;&#x3C;/label&#x3E;
+        &#x3C;label for=&#x22;bottomRadio&#x22; class=&#x22;face-selector&#x22;&#x3E;&#x3C;/label&#x3E;
+        &#x3C;label for=&#x22;backRadio&#x22; class=&#x22;face-selector&#x22;&#x3E;&#x3C;/label&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;cube&#x22;&#x3E;
+        &#x3C;figure class=&#x22;top&#x22;&#x3E;&#x3C;/figure&#x3E;
+        &#x3C;figure class=&#x22;left&#x22;&#x3E;&#x3C;/figure&#x3E;
+        &#x3C;figure class=&#x22;front&#x22;&#x3E;&#x3C;/figure&#x3E;
+        &#x3C;figure class=&#x22;right&#x22;&#x3E;&#x3C;/figure&#x3E;
+        &#x3C;figure class=&#x22;bottom&#x22;&#x3E;&#x3C;/figure&#x3E;
+        &#x3C;figure class=&#x22;back&#x22;&#x3E;&#x3C;/figure&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;ol class=&#x22;cube-face-labels&#x22;&#x3E;
+        &#x3C;li for=&#x22;f-t&#x22;&#x3E;face 1&#x3C;/li&#x3E;
+        &#x3C;li for=&#x22;f-l&#x22;&#x3E;face 2&#x3C;/li&#x3E;
+        &#x3C;li for=&#x22;f-f&#x22;&#x3E;face 3&#x3C;/li&#x3E;
+        &#x3C;li for=&#x22;f-r&#x22;&#x3E;face 4&#x3C;/li&#x3E;
+        &#x3C;li for=&#x22;f-bottom&#x22;&#x3E;face 5&#x3C;/li&#x3E;
+        &#x3C;li for=&#x22;f-back&#x22;&#x3E;face 6&#x3C;/li&#x3E;
+    &#x3C;/ol&#x3E;
+&#x3C;/section&#x3E;</pre></td>
+            <td>Cube</td>
         </tr>
     </table>
 </article>

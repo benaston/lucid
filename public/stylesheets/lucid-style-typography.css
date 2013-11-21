@@ -47,6 +47,10 @@
     font-style: normal;
 }
 
+.logo {
+    margin: 0;
+}
+
 h1.logo {
     font-size: 3em;
     font-family: "proxima-nova-500";
@@ -64,6 +68,10 @@ body, p {
     line-height: 120%;
     color: #333333;
     -webkit-font-smoothing: antialiased;
+}
+
+p:not(:last-child) {
+    margin-bottom:20px;
 }
 
 h1, h2, h3, h4, h5, h6 {

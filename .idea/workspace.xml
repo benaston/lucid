@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c963ddb5-fc50-4b50-ba56-581c8af28eeb" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/lucid-style-cube.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/lucid-style-typography.css" afterPath="$PROJECT_DIR$/public/stylesheets/lucid-style-typography.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lucid.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,16 +58,7 @@
       <file leaf-file-name="lucid-style-animation.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-animation.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="17" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="54450">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lucid-style-table.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-table.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="23" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+            <state line="1333" column="0" selection-start="25957" selection-end="25957" vertical-scroll-proportion="0.0" vertical-offset="19650" max-vertical-offset="54450">
               <folding />
             </state>
           </provider>
@@ -73,7 +67,7 @@
       <file leaf-file-name="index.ejs" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="414" column="69" selection-start="14376" selection-end="14376" vertical-scroll-proportion="0.35479042" vertical-offset="5973" max-vertical-offset="8115">
+            <state line="568" column="23" selection-start="20111" selection-end="20111" vertical-scroll-proportion="0.8739496" vertical-offset="7896" max-vertical-offset="9165">
               <folding />
             </state>
           </provider>
@@ -91,7 +85,16 @@
       <file leaf-file-name="lucid-style-typography.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-typography.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="151" column="1" selection-start="2740" selection-end="2740" vertical-scroll-proportion="0.0" vertical-offset="1995" max-vertical-offset="4095">
+            <state line="74" column="1" selection-start="1423" selection-end="1423" vertical-scroll-proportion="-8.613636" vertical-offset="731" max-vertical-offset="4215">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lucid-style-cube.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-cube.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="14" selection-start="398" selection-end="398" vertical-scroll-proportion="-3.8039215" vertical-offset="91" max-vertical-offset="4155">
               <folding />
             </state>
           </provider>
@@ -140,12 +143,13 @@
         <option value="$PROJECT_DIR$/public/stylesheets/lucid-style-buttons.css" />
         <option value="$PROJECT_DIR$/public/stylesheets/lucid-style-showcase.css" />
         <option value="$PROJECT_DIR$/public/stylesheets/lucid-style-table.css" />
-        <option value="$PROJECT_DIR$/public/stylesheets/lucid-style-typography.css" />
         <option value="$PROJECT_DIR$/public/stylesheets/lucid-style-reset.css" />
         <option value="$PROJECT_DIR$/public/stylesheets/lucid-style-items.css" />
         <option value="$PROJECT_DIR$/public/stylesheets/lucid-style-form-elements.css" />
-        <option value="$PROJECT_DIR$/public/stylesheets/lucid-style-colors.css" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/public/stylesheets/lucid-style-colors.css" />
+        <option value="$PROJECT_DIR$/public/stylesheets/lucid-style-typography.css" />
+        <option value="$PROJECT_DIR$/public/stylesheets/lucid-style-cube.css" />
         <option value="$PROJECT_DIR$/views/index.ejs" />
       </list>
     </option>
@@ -225,6 +229,24 @@
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lucid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lucid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -240,7 +262,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fonts" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -251,7 +273,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../website" />
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
@@ -261,6 +283,35 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -328,13 +379,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-typography.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="151" column="1" selection-start="2740" selection-end="2740" vertical-scroll-proportion="0.0" vertical-offset="1995" max-vertical-offset="4095">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-reset.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="14" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
@@ -356,23 +400,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-colors.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-buttons.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="102" column="1" selection-start="2032" selection-end="2032" vertical-scroll-proportion="0.0" vertical-offset="1365" max-vertical-offset="2205">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-animation.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="17" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="54450">
           <folding />
         </state>
       </provider>
@@ -384,9 +414,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-animation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1333" column="0" selection-start="25957" selection-end="25957" vertical-scroll-proportion="0.0" vertical-offset="19650" max-vertical-offset="54450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-colors.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="1" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-typography.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="1" selection-start="1423" selection-end="1423" vertical-scroll-proportion="-8.613636" vertical-offset="731" max-vertical-offset="4215">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-cube.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="14" selection-start="398" selection-end="398" vertical-scroll-proportion="-3.8039215" vertical-offset="91" max-vertical-offset="4155">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="414" column="69" selection-start="14376" selection-end="14376" vertical-scroll-proportion="0.35479042" vertical-offset="5973" max-vertical-offset="8115">
+        <state line="568" column="23" selection-start="20111" selection-end="20111" vertical-scroll-proportion="0.8739496" vertical-offset="7896" max-vertical-offset="9165">
           <folding />
         </state>
       </provider>
