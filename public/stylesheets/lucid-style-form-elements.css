@@ -107,3 +107,23 @@ button.checked, a.checked {
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
 }
+
+.meta-info {
+visibility: hidden;
+opacity: 0;
+transition: opacity .2s linear 0s, visibility 0s linear .2s;
+position: absolute;
+width: 200px;
+top: 24px;
+left: 270px;
+width: 200px;
+}
+
+input[type='text']:focus + .meta-info, 
+input[type='email']:focus + .meta-info, 
+input[type='password']:focus + .meta-info, 
+textarea:focus + .meta-info {
+visibility: visible;
+opacity: 1;
+transition: opacity .2s linear 0s, visibility 0s linear 0s;
+}

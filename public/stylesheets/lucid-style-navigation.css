@@ -1,0 +1,23 @@
+.breadcrumbs {
+    position: relative;
+    top: -25px;
+    padding: 25px 0 25px 25px;
+}
+.breadcrumbs[data-selected-crumb='1'] li:nth-child(1),
+.breadcrumbs[data-selected-crumb='2'] li:nth-child(2),
+.breadcrumbs[data-selected-crumb='3'] li:nth-child(3) {
+    border-bottom: 2px solid rgba(0, 109, 204, 0.95);
+}
+
+.breadcrumbs .crumb {
+    list-style: none inside;
+    line-height: 2.5rem;
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.crumb .first-letter {
+    font-size: 1.1rem;
+    font-weight: normal;
+    margin-right: .2rem;
+}

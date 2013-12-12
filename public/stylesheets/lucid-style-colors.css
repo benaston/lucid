@@ -2,10 +2,30 @@
     color: #08c;
 }
 
+.black-primary {
+    color: #303030;
+}
+
 .blue-primary {
     color: rgba(0, 109, 204, 1)
 }
 
 .yellow-hover {
     color: rgba(255, 200, 0, 0.3);
+}
+
+.green-primary{
+    color: rgba(32, 160, 82, 1);
+}
+
+.light-blue-primary{
+    color: rgba(44, 155, 230, 1);
+}
+
+.yellow-primary{
+    color: rgba(255, 224, 0, 1);
+}
+
+.orange-primary{
+    color: rgba(247, 131, 0, 1);
 }
