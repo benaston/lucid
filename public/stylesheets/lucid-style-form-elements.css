@@ -127,3 +127,11 @@ visibility: visible;
 opacity: 1;
 transition: opacity .2s linear 0s, visibility 0s linear 0s;
 }
+
+input[type="radio"]:checked:focus + label {
+    box-shadow: 0 0 0 0px rgba(255, 255, 255, 1), 0 0 0 2px #eee;
+}
+
+input[type="radio"]:focus + label {
+    box-shadow: 0 0 1px 12px rgba(255, 255, 255, 1), 0 0 1px 14px #eee;
+}
