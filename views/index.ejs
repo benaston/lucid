@@ -8,13 +8,14 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/lucid-style-animation.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/lucid-style-items.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/lucid-style-buttons.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/lucid-style-buttons.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/lucid-style-showcase.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/lucid-style-navigation.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/lucid-style-cube.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/lucid-style-position.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/lucid-style-dialogs.css">
 </head>
-<body>
+<body class="modal-container modal-visibles">
+<div class="modal-bg">
 <article>
 <h1 class="logo">lucid.css</h1>
 
@@ -29,6 +30,7 @@
         <li><span class="font-size-smallest">5</span>. <a href="#items">Items</a></li>
         <li><span class="font-size-smallest">6</span>. <a href="#navigation">Navigation</a></li>
         <li><span class="font-size-smallest">7</span>. <a href="#miscellaneous">Miscellaneous</a></li>
+        <li><span class="font-size-smallest">8</span>. <a href="#dialogs">Dialogs</a></li>
     </ol>
 </article>
 <article id="tables">
@@ -195,42 +197,6 @@ Code
         </tr>
         <tr>
             <td>
-                <input type="text" placeholder="input type='text'"/>
-            </td>
-            <td>
-                <pre>&lt;input type=&quot;text&quot; placeholder=&quot;input type='text'&quot;/&gt;</pre>
-            </td>
-            <td>Text input</td>
-        </tr>
-        <tr>
-            <td>
-                <input type="password" placeholder="input type='password'"/>
-            </td>
-            <td>
-                <pre>&lt;input type=&quot;password&quot; placeholder=&quot;input type='password'&quot;/&gt;</pre>
-            </td>
-            <td>Password input</td>
-        </tr>
-        <tr>
-            <td>
-                <input type="email" placeholder="input type='email'"/>
-            </td>
-            <td>
-                <pre>&lt;input type=&quot;email&quot; placeholder=&quot;input type='email'&quot;/&gt;</pre>
-            </td>
-            <td>Email input</td>
-        </tr>
-        <tr>
-            <td>
-                <textarea placeholder="placeholder..."></textarea>
-            </td>
-            <td>
-                <pre>&lt;textarea placeholder=&quot;placeholder...&quot;&gt;&lt;/textarea&gt;</pre>
-            </td>
-            <td>Text area</td>
-        </tr>
-        <tr>
-            <td>
                 <hr/>
             <td><pre>&lt;hr/&gt;</pre></td>
             <td>Horizontal line</td>
@@ -324,7 +290,7 @@ Code
         <tr>
             <td>
                 <div class="relative">
-                    <input id="foo" type="email" placeholder="input type='email'"/>
+                    <input id="foo" type="email" placeholder="input with metadata"/>
                     <label for="foo" class="meta-info">foo</label>
                 </div>                
             </td>
@@ -336,6 +302,15 @@ Code
 &lt;/div&gt;</pre>
             </td>
             <td>Text input meta-data</td>
+        </tr>
+        <tr>
+            <td>
+                <textarea placeholder="textarea..."></textarea>
+            </td>
+            <td>
+                <pre>&lt;textarea placeholder=&quot;textarea...&quot;&gt;&lt;/textarea&gt;</pre>
+            </td>
+            <td>Text area</td>
         </tr>
         <tr>
             <td>
@@ -417,6 +392,13 @@ Code
             </td>
             <td><pre>&lt;button class=&quot;btn btn-80 btn-primary&quot;&gt;s&lt;/button&gt;</pre></td>
             <td>Primary button</td>
+        </tr>
+        <tr>
+            <td>
+                <button class="btn btn-80 btn-primary btn-with-notch">s</button>
+            </td>
+            <td><pre>&lt;button class=&quot;btn btn-80 btn-primary btn-with-notch&quot;&gt;s&lt;/button&gt;</pre></td>
+            <td>Button with notch</td>
         </tr>
         <tr>
             <td>
@@ -591,12 +573,12 @@ Code
                         <label for="backRadio" class="face-selector"></label>
                     </div>
                     <div class="cube">
-                        <figure class="top"></figure>
-                        <figure class="left"></figure>
-                        <figure class="front"></figure>
-                        <figure class="right"></figure>
-                        <figure class="bottom"></figure>
-                        <figure class="back"></figure>
+                        <figure class="top"><p class="face-empty-message">this face is empty</p></figure>
+                        <figure class="left"><p class="face-empty-message">this face is empty</p></figure>
+                        <figure class="front"><p class="face-empty-message">this face is empty</p></figure>
+                        <figure class="right"><p class="face-empty-message">this face is empty</p></figure>
+                        <figure class="bottom"><p class="face-empty-message">this face is empty</p></figure>
+                        <figure class="back"><p class="face-empty-message">this face is empty</p></figure>
                     </div>
                     <ol class="cube-face-labels">
                         <li for="f-t">face 1</li>
@@ -646,4 +628,56 @@ Code
         </tr>
     </table>
 </article>
+
+<article id="dialogs">
+    <h1>Dialogs</h1>
+    <table class="table-bordered table-striped">
+        <tr>
+            <th>Element</th>
+            <th>Markup</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="centered-text" onclick="javascript:document.querySelector('.modal-container').classList.toggle('modal-visible')">
+                    <button class="btn btn-80">s</button>
+                    <div class="label">show dialog</div>
+                </div>
+            </td>
+            <td><pre>
+&lt;div class=&quot;modal modal-full-screen&quot;&gt;
+    &lt;div class=&quot;modal-content-container centered medium&quot;&gt;
+        &lt;div class=&quot;modal-content-panel&quot;&gt;
+            &lt;h1&gt;Foo&lt;/h1&gt;
+            &lt;p&gt;Foo bar.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre></td>
+            <td>Full-screen dialog.</td>
+        </tr>
+    </table>
 </article>
+</article>
+</div>
+<div class="modal modal-full-screen">
+    <div class="modal-content-container centered medium">
+        <div class="modal-content-panel">
+            <h1>This is a modal dialog</h1>
+            <p>You can write a message for your users here.</p>
+            <ul class="form-button-container">
+                <li class="centered-text form-button-container-item">
+                    <button class="btn btn-80" onclick="javascript:document.querySelector('.modal-container').classList.toggle('modal-visible')">*</button>
+                    <div class="label">cancel</div>
+                </li>
+                <li class="centered-text form-button-container-item">
+                    <button class="btn btn-80 btn-success" onclick="javascript:document.querySelector('.modal-container').classList.toggle('modal-visible')">3</button>
+                    <div class="label">ok</div>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>

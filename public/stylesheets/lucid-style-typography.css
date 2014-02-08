@@ -70,6 +70,10 @@ body, p {
     -webkit-font-smoothing: antialiased;
 }
 
+body {
+    -webit-user-select:none;
+}
+
 p:not(:last-child) {
     margin-bottom: 20px;
 }
@@ -160,7 +164,7 @@ code, pre {
 }
 
 body {
-    -webkit-user-select: none;
+    /*-webkit-user-select: none;*/
 }
 
 input[type='text'],
@@ -273,4 +277,5 @@ pre {
     background-color: #f7f7f9;
     border: 1px solid #ccc;
     border-radius: 4px;
+    pointer-events:all;
 }

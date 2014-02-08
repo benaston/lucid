@@ -29,6 +29,8 @@ html .uneditable-input {
     transition: border linear 0.2s;
 }
 
+
+
 input[type=radio]:not(:checked) + label:hover {
     border-color: rgba(255, 200, 0, 0.3);
 }
@@ -70,23 +72,16 @@ button.checked, a.checked {
     box-shadow: 0 0 0 2px rgba(255, 255, 255, 1), 0 0 0 4px rgba(0, 109, 204, 1) !important;
 }
 
-.btn-with-notch:after {
-    display: block;
-    content: '';
-    width: 4px;
-    background-color: rgba(0, 109, 204, 0.95);
-    height: 12px;
-    position: relative;
-    top: -90px;
-    -webkit-transform: rotate(0);
-    left: 34px;
-}
-
 .form-button-container {
+    list-style: none;
     float: right;
     padding-top: 40px;
 }
 
+.form-button-container-item {
+    display: inline-block;
+    padding-left: 15px;
+}
 .form-button-container:after {
     content: ".";
     height: 0px;

@@ -97,7 +97,18 @@ figure {
     text-align: left;
     box-sizing: border-box;
     opacity: 1;
-    border: 2px solid #eee;
+    /*border: 2px solid #eee;*/
+}
+
+.cube figure .face-empty-message {
+    display: none;
+    position: relative;
+    text-align: center;
+    top: 40%;
+}
+
+.cube figure .face-empty-message:only-child {
+    display: block;
 }
 
 .cube .front {
