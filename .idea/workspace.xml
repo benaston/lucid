@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c963ddb5-fc50-4b50-ba56-581c8af28eeb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/lucid-style-dialogs.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/lucid-style-buttons.css" afterPath="$PROJECT_DIR$/public/stylesheets/lucid-style-buttons.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/lucid-style-cube.css" afterPath="$PROJECT_DIR$/public/stylesheets/lucid-style-cube.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/lucid-style-form-elements.css" afterPath="$PROJECT_DIR$/public/stylesheets/lucid-style-form-elements.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/lucid-style-navigation.css" afterPath="$PROJECT_DIR$/public/stylesheets/lucid-style-navigation.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/lucid-style-table.css" afterPath="$PROJECT_DIR$/public/stylesheets/lucid-style-table.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/lucid-style-typography.css" afterPath="$PROJECT_DIR$/public/stylesheets/lucid-style-typography.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/lucid.iml" afterPath="$PROJECT_DIR$/.idea/lucid.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lucid.iws" />
@@ -34,19 +28,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="lucid-style-navigation.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-navigation.css">
+      <file leaf-file-name="lucid-style-form-elements.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-form-elements.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="21" selection-start="2296" selection-end="2296" vertical-scroll-proportion="0.0" vertical-offset="707" max-vertical-offset="1440">
+            <state line="97" column="26" selection-start="2007" selection-end="2033" vertical-scroll-proportion="-6.423077" vertical-offset="1288" max-vertical-offset="2115">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lucid-style-typography.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-typography.css">
+      <file leaf-file-name="lucid-style-dialogs.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-dialogs.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="1" selection-start="1463" selection-end="1463" vertical-scroll-proportion="-11.538462" vertical-offset="870" max-vertical-offset="4290">
+            <state line="33" column="18" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="870">
               <folding />
             </state>
           </provider>
@@ -55,25 +49,7 @@
       <file leaf-file-name="index.ejs" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="575" column="96" selection-start="20417" selection-end="20469" vertical-scroll-proportion="0.6704289" vertical-offset="8328" max-vertical-offset="10320">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lucid-style-table.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-table.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="17" selection-start="53" selection-end="53" vertical-scroll-proportion="-2.3076923" vertical-offset="0" max-vertical-offset="660">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="20" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="270">
+            <state line="688" column="20" selection-start="26951" selection-end="26951" vertical-scroll-proportion="13.073171" vertical-offset="3888" max-vertical-offset="11460">
               <folding />
             </state>
           </provider>
@@ -82,43 +58,7 @@
       <file leaf-file-name="lucid-style-buttons.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-buttons.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="1" selection-start="1611" selection-end="1611" vertical-scroll-proportion="-45.73077" vertical-offset="26" max-vertical-offset="2670">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lucid-style-animation.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-animation.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1333" column="0" selection-start="25957" selection-end="25957" vertical-scroll-proportion="0.0" vertical-offset="19650" max-vertical-offset="54450">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lucid-style-cube.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-cube.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="0" selection-start="3650" selection-end="3836" vertical-scroll-proportion="0.0" vertical-offset="1294" max-vertical-offset="4410">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lucid-style-reset.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-reset.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="14" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="900">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lucid-style-showcase.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-showcase.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="1" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="195">
+            <state line="103" column="1" selection-start="2050" selection-end="2050" vertical-scroll-proportion="0.0" vertical-offset="1491" max-vertical-offset="3225">
               <folding />
             </state>
           </provider>
@@ -151,14 +91,14 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/public/stylesheets/lucid-style-colors.css" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/public/stylesheets/lucid-style-buttons.css" />
         <option value="$PROJECT_DIR$/public/stylesheets/lucid-style-table.css" />
         <option value="$PROJECT_DIR$/public/stylesheets/lucid-style-dialogs.css" />
         <option value="$PROJECT_DIR$/public/stylesheets/lucid-style-typography.css" />
-        <option value="$PROJECT_DIR$/public/stylesheets/lucid-style-form-elements.css" />
         <option value="$PROJECT_DIR$/public/stylesheets/lucid-style-navigation.css" />
-        <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/public/stylesheets/lucid-style-cube.css" />
+        <option value="$PROJECT_DIR$/public/stylesheets/lucid-style-form-elements.css" />
+        <option value="$PROJECT_DIR$/public/stylesheets/lucid-style-buttons.css" />
+        <option value="$PROJECT_DIR$/views/index.ejs" />
       </list>
     </option>
   </component>
@@ -509,7 +449,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-showcase.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="1" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+        <state line="7" column="1" selection-start="97" selection-end="97" vertical-scroll-proportion="0.19848771" vertical-offset="0" max-vertical-offset="529">
           <folding />
         </state>
       </provider>
@@ -529,37 +469,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-buttons.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="1" selection-start="1611" selection-end="1611" vertical-scroll-proportion="-45.73077" vertical-offset="26" max-vertical-offset="2670">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-dialogs.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="23" selection-start="936" selection-end="936" vertical-scroll-proportion="0.45059288" vertical-offset="357" max-vertical-offset="870">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-typography.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="78" column="1" selection-start="1463" selection-end="1463" vertical-scroll-proportion="-11.538462" vertical-offset="870" max-vertical-offset="4290">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-table.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="53" selection-end="53" vertical-scroll-proportion="-2.3076923" vertical-offset="0" max-vertical-offset="660">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-form-elements.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="756" selection-end="756" vertical-scroll-proportion="0.8300395" vertical-offset="45" max-vertical-offset="2055">
           <folding />
         </state>
       </provider>
@@ -571,16 +483,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-table.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="53" selection-end="53" vertical-scroll-proportion="-2.3076923" vertical-offset="0" max-vertical-offset="660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-cube.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="0" selection-start="3650" selection-end="3836" vertical-scroll-proportion="0.0" vertical-offset="1294" max-vertical-offset="4410">
+        <state line="102" column="0" selection-start="3650" selection-end="3650" vertical-scroll-proportion="0.44612476" vertical-offset="1294" max-vertical-offset="4410">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-form-elements.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="26" selection-start="2007" selection-end="2033" vertical-scroll-proportion="-6.423077" vertical-offset="1288" max-vertical-offset="2115">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-buttons.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="1" selection-start="2050" selection-end="2050" vertical-scroll-proportion="0.0" vertical-offset="1491" max-vertical-offset="3225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-dialogs.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="18" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="870">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="575" column="96" selection-start="20417" selection-end="20469" vertical-scroll-proportion="0.6704289" vertical-offset="8328" max-vertical-offset="10320">
+        <state line="688" column="20" selection-start="26951" selection-end="26951" vertical-scroll-proportion="13.073171" vertical-offset="3888" max-vertical-offset="11460">
           <folding />
         </state>
       </provider>

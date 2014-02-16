@@ -95,12 +95,16 @@ button.checked, a.checked {
     float: left;
 }
 
+.rotating-button-container > .btn[data-is-waiting='false'] {
+    transition: border-left-width .05s linear;
+}
 .rotating-button-container > .btn[data-is-waiting='true'] {
     border-left: 0;
-    -webkit-animation-duration: 2s;
+    transition: border-left-width .05s linear;
+    -webkit-animation-duration: 2.5s;
     -webkit-animation-name: rotate;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-out-in;
 }
 
 .meta-info {

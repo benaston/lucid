@@ -13,13 +13,14 @@
     transition: border-color 0.1s linear, box-shadow 0.1s linear;
 }
 
-.btn-40 + .label {
+.btn-40 ~ .label,
+.btn-50 ~ .label {
     margin-top: 4px;
     font-size: .8rem;
 }
 
-.btn-80 + .label,
-.btn-100 + .label {
+.btn-80 ~ .label,
+.btn-100 ~ .label {
     margin-top: 4px;
     font-size: 1rem;
 }
@@ -89,8 +90,7 @@ a.btn:not(.disabled):hover {
     width: 5px;
     height: 5px;
     border-radius: 5px;
-    position: relative;
-    top: -2px;
+    position: absolute;
 }
 
 label:focus {
@@ -103,12 +103,49 @@ label:focus {
     position: relative;
 }
 
-.button-icon {
+/*.btn.btn-80 + .button-icon {*/
+    /*display: inline-block;*/
+    /*font-size: 1.9em;*/
+    /*position: absolute;*/
+    /*left: 28px;*/
+    /*top: 32px;*/
+    /*pointer-events: none;*/
+/*}*/
+
+.btn ~ .button-icon {
     display: inline-block;
+
+    position: relative;
+    pointer-events: none;
+}
+
+.btn.btn-80 ~ .button-icon:after {
+    display: block;
     font-size: 1.9em;
+    content:'s';
     position: absolute;
-    left: 28px;
-    top: 32px;
+    left: -52px;
+    top: -43px;
+    pointer-events: none;
+}
+
+.btn.btn-50 ~ .button-icon:after {
+    display: block;
+    font-size: 1.3em;
+    content:'s';
+    position: absolute;
+    left: -34px;
+    top: -32px;
+    pointer-events: none;
+}
+
+.btn.btn-40 ~ .button-icon:after {
+    display: block;
+    font-size: 1em;
+    content:'s';
+    position: absolute;
+    left: -27px;
+    top: -26px;
     pointer-events: none;
 }
 

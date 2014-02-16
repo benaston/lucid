@@ -388,6 +388,21 @@ Code
         </tr>
         <tr>
             <td>
+                <div class="centered-text">
+                    <button class="btn btn-50">s</button>
+                    <div class="label">search</div>
+                </div>
+            </td>
+            <td><pre>
+&lt;div class=&quot;centered-text&quot;&gt;
+    &lt;button class=&quot;btn btn-80&quot;&gt;s&lt;/button&gt;
+    &lt;div class=&quot;label&quot;&gt;search&lt;/div&gt;
+&lt;/div&gt;</pre>
+            </td>
+            <td>Default button with label</td>
+        </tr>
+        <tr>
+            <td>
                 <button class="btn btn-80 btn-primary">s</button>
             </td>
             <td><pre>&lt;button class=&quot;btn btn-80 btn-primary&quot;&gt;s&lt;/button&gt;</pre></td>
@@ -452,16 +467,57 @@ Code
         </tr>
         <tr>
             <td>
-                <div class="rotating-button-container">
-                    <button class="btn btn-80 btn-success btn-rotating" data-is-waiting="true"></button>
-                    <span class="focus-indicator"></span><span class="pictos button-icon">3</span>
+                <div class="rotating-button-container centered-text">
+                    <button class="btn btn-80 btn-success btn-rotating" data-is-waiting="false"></button><span class="focus-indicator"></span><span class="pictos button-icon"></span>
                 </div>
             </td>
             <td><pre>
-&lt;button class=&quot;btn btn-80 btn-success btn-rotating&quot;
-        data-is-waiting=&quot;true&quot;&gt;&lt;/button&gt;
-&lt;span class=&quot;focus-indicator&quot;&gt;&lt;/span&gt;
-&lt;span class=&quot;pictos button-icon&quot;&gt;3&lt;/span&gt;</pre>
+&lt;div class=&quot;rotating-button-container&quot;&gt;
+    &lt;button class=&quot;btn btn-80 btn-success btn-rotating&quot; data-is-waiting=&quot;true&quot;&gt;&lt;/button&gt;
+    &lt;span class=&quot;focus-indicator&quot;&gt;&lt;/span&gt;&lt;span class=&quot;pictos button-icon&quot;&gt;3&lt;/span&gt;
+&lt;/div&gt;</pre>
+            </td>
+            <td>Waiting button</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="rotating-button-container centered-text">
+                    <button class="btn btn-80 btn-success btn-rotating" data-is-waiting="false"></button><span class="focus-indicator"></span><span class="pictos button-icon"></span><div class="label">this is a long long long long label</div>
+                </div>
+            </td>
+            <td><pre>
+&lt;div class=&quot;rotating-button-container&quot;&gt;
+    &lt;button class=&quot;btn btn-80 btn-success btn-rotating&quot; data-is-waiting=&quot;true&quot;&gt;&lt;/button&gt;
+    &lt;span class=&quot;focus-indicator&quot;&gt;&lt;/span&gt;&lt;span class=&quot;pictos button-icon&quot;&gt;3&lt;/span&gt;
+&lt;/div&gt;</pre>
+            </td>
+            <td>Waiting button</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="rotating-button-container centered-text">
+                    <button class="btn btn-50 btn-success btn-rotating" data-is-waiting="false"></button><span class="focus-indicator"></span><span class="pictos button-icon"></span><div class="label">this is a long long long long label</div>
+                </div>
+            </td>
+            <td><pre>
+&lt;div class=&quot;rotating-button-container&quot;&gt;
+    &lt;button class=&quot;btn btn-50 btn-success btn-rotating&quot; data-is-waiting=&quot;true&quot;&gt;&lt;/button&gt;
+    &lt;span class=&quot;focus-indicator&quot;&gt;&lt;/span&gt;&lt;span class=&quot;pictos button-icon&quot;&gt;3&lt;/span&gt;
+&lt;/div&gt;</pre>
+            </td>
+            <td>Waiting button</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="rotating-button-container centered-text">
+                    <button class="btn btn-40 btn-success btn-rotating" data-is-waiting="false"></button><span class="focus-indicator"></span><span class="pictos button-icon"></span><div class="label">this is a long long long long label</div>
+                </div>
+            </td>
+            <td><pre>
+&lt;div class=&quot;rotating-button-container&quot;&gt;
+    &lt;button class=&quot;btn btn-40 btn-success btn-rotating&quot; data-is-waiting=&quot;true&quot;&gt;&lt;/button&gt;
+    &lt;span class=&quot;focus-indicator&quot;&gt;&lt;/span&gt;&lt;span class=&quot;pictos button-icon&quot;&gt;3&lt;/span&gt;
+&lt;/div&gt;</pre>
             </td>
             <td>Waiting button</td>
         </tr>
@@ -679,5 +735,25 @@ Code
         </div>
     </div>
 </div>
+<script>
+    //this function should be modified in production to ensure that only full rotations are ever seen to avoid jarring stops
+    function keepButtonsWaiting(){
+        var buttonsWaiting = document.querySelectorAll('.btn.btn-rotating[data-is-waiting=true]') || [];
+        var buttonsNotWaiting = document.querySelectorAll('.btn.btn-rotating[data-is-waiting=false]') || [];
+        var delay = 0;
+
+        Array.prototype.forEach.call(buttonsWaiting, function(el, i){
+            el.setAttribute('data-is-waiting', 'false');
+        });
+
+        Array.prototype.forEach.call(buttonsNotWaiting, function(el, i){
+            el.setAttribute('data-is-waiting', 'true');
+            delay = 2500;
+        });
+
+        setTimeout(keepButtonsWaiting, delay);
+    }
+    keepButtonsWaiting();
+</script>
 </body>
 </html>
