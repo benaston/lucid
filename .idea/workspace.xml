@@ -1,13 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c963ddb5-fc50-4b50-ba56-581c8af28eeb" name="Default" comment="">
+    <list default="true" id="6d38b060-622a-4081-9756-d855458ec3d3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontello.woff" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/contract/metadata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/contract/search" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/contract/template-post-render-scripts/search-form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/contract/templates/favorite.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/contract/templates/item-of-interest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/contract/templates/result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/contract/templates/search-form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/contractor/metadata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/contractor/search" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/contractor/templates/result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/contractor/templates/search-form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/glyph.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/apple-touch-icon-120-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/apple-touch-icon-120-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/apple-touch-icon-120-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/apple-touch-icon-120-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/apple-touch-icon-120-5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/apple-touch-icon-120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/apple-touch-icon-152-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/apple-touch-icon-152-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/apple-touch-icon-152-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/apple-touch-icon-152-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/apple-touch-icon-152-5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/apple-touch-icon-152.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/appStart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/caches/item-cache.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/clients/wizerati-http-client.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/connectors/wizerati-connector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/controllers/AccountActivationController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/controllers/AccountActivationPanelController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/controllers/ActionedItemsController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/controllers/AdvertisersController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/controllers/DeleteFavoriteGroupConfirmationDialogController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/controllers/FavoriteGroupController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/controllers/FavoritesController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/controllers/FavoritesCubeModeController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/controllers/HiddenItemsController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/controllers/HomeController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/controllers/ItemsController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/controllers/ItemsOfInterestController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/controllers/LoginController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/controllers/PurchasePanelAccountsController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/controllers/PurchasePanelController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/controllers/ResultListModeController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/controllers/SearchController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/controllers/SearchPanelModeController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/controllers/SelectedCubeFaceController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/controllers/SelectedItemController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/controllers/SessionController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/decorators/decorator-trace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/entities/AccountEntity.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/factories/favorite-view-factory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/factories/guid-factory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/factories/item-of-interest-view-factory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/factories/result-view-factory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/factories/wizerati-request-factory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/layout/layout-calculator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/layout/layout-coordinator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/models/actioned-items-model.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/models/advertisers-panel-model.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/models/delete-favorite-group-confirmation-dialog-model.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/models/favorites-cube-model.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/models/hidden-items-model.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/models/items-of-interest-model.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/models/purchase-panel-model.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/models/result-list-model.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/models/search-form-model.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/models/search-panel-model.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/models/selected-cube-face-model.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/models/selected-item-model.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/models/sign-in-panel-model.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/models/single-item-model.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/models/ui-root-model.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/repositories/Item-repository.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/route-registry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/services/account-service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/services/authentication-service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/services/cookie-service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/services/cronicl-service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/services/search-service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/services/sign-in-service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/views/AccountActivationView.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/views/ContractFavoriteView.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/views/ContractItemOfInterestView.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/views/ContractResultView.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/views/ContractorFavoriteView.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/views/ContractorItemOfInterestView.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/views/ContractorResultView.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/views/DeleteFavoriteGroupConfirmationDialogView.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/views/FavoritesCubeView.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/views/ItemsOfInterestView.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/views/LoginPanelView.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/views/PurchasePanelView.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/views/ResultListView.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/views/SearchFormView.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/views/SearchPanelView.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/views/items-of-interest-view.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/views/result-list-view.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/views/search-panel-view.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/core/views/ui-root-view.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/env.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/module-registry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/application/wizerati.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/vendor/_cookie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/vendor/decorator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/vendor/invertebrate.js/TemplateUriHelper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/vendor/invertebrate.js/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/vendor/invertebrate.js/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/vendor/invertebrate.js/env.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/vendor/invertebrate.js/invertebrate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/vendor/invertebrate.js/model.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/vendor/invertebrate.js/router.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/vendor/invertebrate.js/syncSvc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/vendor/invertebrate.js/view.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/vendor/moment.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/vendor/tiny-pub-sub.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/vendor/underscore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/vendor/zepto-callbacks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/vendor/zepto-deferred.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/vendor/zepto.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/wizerati.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/wizerati.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/stylesheets/application/noscript.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/stylesheets/application/style-wizerati.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/stylesheets/foo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/stylesheets/vendor/lucid-style-declarative.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/stylesheets/vendor/lucid-style-reset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/stylesheets/wizerati.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/stylesheets/wizerati.min.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/lucid-style-buttons.css" afterPath="$PROJECT_DIR$/public/stylesheets/lucid-style-buttons.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/lucid-style-form-elements.css" afterPath="$PROJECT_DIR$/public/stylesheets/lucid-style-form-elements.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
-    <ignored path="lucid.iws" />
+    <ignored path="items-of-interest-prototype.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,32 +160,23 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="lucid" />
+    <favorites_list name="items-of-interest-prototype" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="lucid-style-form-elements.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-form-elements.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="26" selection-start="2007" selection-end="2033" vertical-scroll-proportion="-6.423077" vertical-offset="1288" max-vertical-offset="2115">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lucid-style-dialogs.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-dialogs.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="18" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="870">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.ejs" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="688" column="20" selection-start="26951" selection-end="26951" vertical-scroll-proportion="13.073171" vertical-offset="3888" max-vertical-offset="11460">
+            <state line="3" column="70" selection-start="100" selection-end="100" vertical-scroll-proportion="0.062849164" vertical-offset="0" max-vertical-offset="12000">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lucid-style-typography.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-typography.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="22" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4365">
               <folding />
             </state>
           </provider>
@@ -58,7 +185,64 @@
       <file leaf-file-name="lucid-style-buttons.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-buttons.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="1" selection-start="2050" selection-end="2050" vertical-scroll-proportion="0.0" vertical-offset="1491" max-vertical-offset="3225">
+            <state line="129" column="21" selection-start="2619" selection-end="2619" vertical-scroll-proportion="-8.615385" vertical-offset="1711" max-vertical-offset="3300">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="165">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Procfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="16" selection-start="18" selection-end="18" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="420">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gruntfile.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="51" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="40" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -74,30 +258,59 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitLogSettings">
-    <option name="myDateState">
-      <MyDateState />
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/stylesheets/lucid-style-typography.css" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/stylesheets/lucid-style-reset.css" />
-        <option value="$PROJECT_DIR$/public/stylesheets/lucid-style-showcase.css" />
-        <option value="$PROJECT_DIR$/public/stylesheets/lucid-style-reset.css" />
-        <option value="$PROJECT_DIR$/public/stylesheets/lucid-style-items.css" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/public/stylesheets/lucid-style-colors.css" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/public/stylesheets/lucid-style-table.css" />
-        <option value="$PROJECT_DIR$/public/stylesheets/lucid-style-dialogs.css" />
-        <option value="$PROJECT_DIR$/public/stylesheets/lucid-style-typography.css" />
-        <option value="$PROJECT_DIR$/public/stylesheets/lucid-style-navigation.css" />
-        <option value="$PROJECT_DIR$/public/stylesheets/lucid-style-cube.css" />
-        <option value="$PROJECT_DIR$/public/stylesheets/lucid-style-form-elements.css" />
+        <option value="$PROJECT_DIR$/public/javascripts/application/core/views/result-list-view.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/application/core/decorators/decorator-trace.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/application/env.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/application/core/app.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/application/core/services/sign-in-service.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/application/core/models/sign-in-panel-model.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/application/core/models/result-list-model.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/application/core/clients/WizeratiClient.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/application/core/clients/http-client-wizerati.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/application/core/connectors/wizerati-connector.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/application/core/clients/wizerati-http-client.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/application/core/factories/wizerati-request-factory.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/application/core/services/account-service.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/application/core/factories/favorite-view-factory.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/application/core/factories/item-of-interest-view-factory.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/application/core/factories/result-view-factory.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/application/core/controllers/AccountActivationPanelController.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/application/core/route-registry.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/application/core/services/cronicl-service.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/vendor/invertebrate.js/app.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/application/core/views/ItemsOfInterestView.js" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/views/index-2.ejs" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/routes/index2.js" />
+        <option value="$PROJECT_DIR$/public/stylesheets/wizerati.css" />
+        <option value="$PROJECT_DIR$/public/stylesheets/vendor/lucid-style-reset.css" />
+        <option value="$PROJECT_DIR$/views/index3.ejs" />
+        <option value="$PROJECT_DIR$/views/index4.ejs" />
+        <option value="$PROJECT_DIR$/public/stylesheets/foo.css" />
+        <option value="$PROJECT_DIR$/views/index2.ejs" />
+        <option value="$PROJECT_DIR$/public/javascripts/wizerati.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/application/module-registry.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/application/core/models/ui-root-model.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/application/core/views/UIRootView.js" />
+        <option value="$PROJECT_DIR$/public/stylesheets/vendor/lucid-style-declarative.css" />
+        <option value="$PROJECT_DIR$/public/javascripts/application/core/views/ResultListView.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/application/appStart.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/application/core/layout/layout-coordinator.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/application/core/models/items-of-interest-model.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/application/core/views/items-of-interest-view.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/application/core/layout/layout-calculator.js" />
+        <option value="$PROJECT_DIR$/public/stylesheets/application/style-wizerati.css" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/public/stylesheets/lucid-style-buttons.css" />
+        <option value="$PROJECT_DIR$/public/stylesheets/lucid-style-typography.css" />
+        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/views/index.ejs" />
       </list>
     </option>
@@ -137,27 +350,27 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lucid" />
+              <option name="myItemId" value="items-of-interest-prototype" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lucid" />
+              <option name="myItemId" value="items-of-interest-prototype" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lucid" />
+              <option name="myItemId" value="lucid-new" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lucid" />
+              <option name="myItemId" value="items-of-interest-prototype" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lucid" />
+              <option name="myItemId" value="lucid-new" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -167,11 +380,25 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lucid" />
+              <option name="myItemId" value="items-of-interest-prototype" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lucid" />
+              <option name="myItemId" value="lucid-new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="items-of-interest-prototype" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lucid-new" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -185,11 +412,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lucid" />
+              <option name="myItemId" value="items-of-interest-prototype" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lucid" />
+              <option name="myItemId" value="lucid-new" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -199,11 +426,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lucid" />
+              <option name="myItemId" value="items-of-interest-prototype" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lucid" />
+              <option name="myItemId" value="lucid-new" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -220,23 +447,36 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="web-ide.project.structure" />
-    <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wiz" />
     <property name="FullScreen" value="true" />
-    <property name="options.searchVisible" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
+    <property name="options.lastSelected" value="web.server" />
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="LayoutCode.rearrangeEntriesCSS" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/dnr/Src" />
+    <property name="LayoutCode.rearrangeEntriesEJS" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/fonts" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/public/stylesheets/application" />
+      <recent name="$PROJECT_DIR$/views" />
       <recent name="$PROJECT_DIR$/public/stylesheets" />
-      <recent name="$PROJECT_DIR$/stylesheets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/javascripts/application/core/decorators" />
+      <recent name="$PROJECT_DIR$/javascripts/application" />
+      <recent name="$PROJECT_DIR$/stylesheets/application" />
+      <recent name="$PROJECT_DIR$/stylesheets/vendor" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.Unnamed">
+  <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -273,24 +513,31 @@
       <browser start="false" url="" with-js-debugger="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unnamed" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="/usr/local/bin/node" path-to-js-file="./app.js" working-dir="$PROJECT_DIR$">
-      <browser start="false" url="" with-js-debugger="false" />
-      <RunnerSettings RunnerId="NodeJS.debug" />
-      <RunnerSettings RunnerId="NodeJS.run" />
-      <ConfigurationWrapper RunnerId="NodeJS.debug" />
-      <ConfigurationWrapper RunnerId="NodeJS.run" />
-      <method />
-    </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.Unnamed" />
-    </list>
+    <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c963ddb5-fc50-4b50-ba56-581c8af28eeb" name="Default" comment="" />
-      <created>1384179678843</created>
-      <updated>1384179678843</updated>
+      <changelist id="6d38b060-622a-4081-9756-d855458ec3d3" name="Default" comment="" />
+      <created>1393420420351</created>
+      <updated>1393420420351</updated>
     </task>
     <servers />
   </component>
@@ -299,23 +546,42 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32891566" sideWeight="0.49964765" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3488372" sideWeight="0.8703704" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39903265" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24947146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3030303" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5003524" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47803164" sideWeight="0.49947864" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16144578" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16144578" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3030303" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USERS">
@@ -334,193 +600,104 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-form-elements.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="1" selection-start="1620" selection-end="1620" vertical-scroll-proportion="0.0" vertical-offset="780" max-vertical-offset="1950">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-dialogs.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="30" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="885">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="43" selection-start="1219" selection-end="1219" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="10425">
+        <state line="106" column="14" selection-start="4261" selection-end="4261" vertical-scroll-proportion="0.0" vertical-offset="1590" max-vertical-offset="11985">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/grunt-css/node_modules/csslint/lib/csslint-node.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+        <state line="4529" column="12" selection-start="167959" selection-end="167959" vertical-scroll-proportion="0.0" vertical-offset="67935" max-vertical-offset="138135">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/.jshintrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="20" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="270">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1470" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/grunt-css/node_modules/csslint/lib/csslint-node.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4529" column="12" selection-start="167959" selection-end="167959" vertical-scroll-proportion="-0.4171934" vertical-offset="67935" max-vertical-offset="137805">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="775">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="802">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/Screen Shot 2013-11-20 at 17.56.32.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/Screen Shot 2013-11-20 at 17.58.12.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-buttons.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="19" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="2430">
+        <state line="129" column="21" selection-start="2619" selection-end="2619" vertical-scroll-proportion="-8.615385" vertical-offset="1711" max-vertical-offset="3300">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-animation.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1333" column="0" selection-start="25957" selection-end="25957" vertical-scroll-proportion="0.0" vertical-offset="19650" max-vertical-offset="54450">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-cube.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="14" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="4245">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="14" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-showcase.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="1" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/common.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="22" selection-start="3258" selection-end="3258" vertical-scroll-proportion="0.33333334" vertical-offset="1598" max-vertical-offset="7260" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="45" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-colors.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="1" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="776">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="20" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-animation.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1333" column="0" selection-start="25957" selection-end="25957" vertical-scroll-proportion="0.0" vertical-offset="19650" max-vertical-offset="54450">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="14" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-showcase.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="1" selection-start="97" selection-end="97" vertical-scroll-proportion="0.19848771" vertical-offset="0" max-vertical-offset="529">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-items.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="18" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0" vertical-offset="134" max-vertical-offset="1065" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/Screen Shot 2013-11-20 at 17.57.53.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/Screen Shot 2013-11-20 at 17.58.06.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-typography.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="1" selection-start="1463" selection-end="1463" vertical-scroll-proportion="-11.538462" vertical-offset="870" max-vertical-offset="4290">
+        <state line="1" column="22" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4365">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-navigation.css">
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="21" selection-start="2296" selection-end="2296" vertical-scroll-proportion="0.0" vertical-offset="707" max-vertical-offset="1440">
+        <state line="18" column="51" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1125">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-table.css">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="53" selection-end="53" vertical-scroll-proportion="-2.3076923" vertical-offset="0" max-vertical-offset="660">
+        <state line="1" column="16" selection-start="18" selection-end="18" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="420">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-cube.css">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="0" selection-start="3650" selection-end="3650" vertical-scroll-proportion="0.44612476" vertical-offset="1294" max-vertical-offset="4410">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-form-elements.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="26" selection-start="2007" selection-end="2033" vertical-scroll-proportion="-6.423077" vertical-offset="1288" max-vertical-offset="2115">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-buttons.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="1" selection-start="2050" selection-end="2050" vertical-scroll-proportion="0.0" vertical-offset="1491" max-vertical-offset="3225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/lucid-style-dialogs.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="18" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="870">
+        <state line="8" column="40" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="688" column="20" selection-start="26951" selection-end="26951" vertical-scroll-proportion="13.073171" vertical-offset="3888" max-vertical-offset="11460">
+        <state line="3" column="70" selection-start="100" selection-end="100" vertical-scroll-proportion="0.062849164" vertical-offset="0" max-vertical-offset="12000">
           <folding />
         </state>
       </provider>

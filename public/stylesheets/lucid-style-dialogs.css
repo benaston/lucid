@@ -51,3 +51,7 @@ this node.*/
     top: 25px;
     position: absolute;
 }
+
+body.modal-container.modal-visible {
+    overflow: hidden;
+}

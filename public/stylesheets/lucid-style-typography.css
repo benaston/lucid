@@ -1,6 +1,6 @@
 @font-face {
-    font-family: pictos;
-    src: url("../fonts/pictos.woff");
+    font-family: glyph;
+    src: url("../fonts/fontello.woff");
     font-weight: normal;
     font-style: normal;
 }
@@ -278,4 +278,9 @@ pre {
     border: 1px solid #ccc;
     border-radius: 4px;
     pointer-events:all;
+}
+
+.modal-content-panel h1
+{
+    margin-bottom: 40px;
 }

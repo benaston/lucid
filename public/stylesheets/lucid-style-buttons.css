@@ -2,15 +2,16 @@
     padding: 0 !important;
     cursor: pointer;
     color: #333;
+    display:inline-block; /*guards against display issues when using normally inline elements e.g. a*/
     border-color: rgba(0, 0, 0, 0.45) rgba(0, 0, 0, 0.45) rgba(0, 0, 0, 0.45) !important;
     margin: 0; /*important to avoid unexpected layout*/
-    font-family: 'pictos';
     background-color: transparent;
     -webkit-user-select: none;
     text-align: center;
     box-sizing: border-box;
     border: 2px solid;
     transition: border-color 0.1s linear, box-shadow 0.1s linear;
+    font-family: 'glyph';
 }
 
 .btn-40 ~ .label,
@@ -114,27 +115,31 @@ label:focus {
 
 .btn ~ .button-icon {
     display: inline-block;
-
+    font-family: glyph;
     position: relative;
     pointer-events: none;
+}
+
+.btn-container {
+    display: inline-block;
 }
 
 .btn.btn-80 ~ .button-icon:after {
     display: block;
     font-size: 1.9em;
-    content:'s';
+    content: '\e809';
     position: absolute;
     left: -52px;
     top: -43px;
     pointer-events: none;
 }
 
-.btn.btn-50 ~ .button-icon:after {
+.btn.btn-50~.button-icon:after {
     display: block;
     font-size: 1.3em;
-    content:'s';
+    content: '\e809';
     position: absolute;
-    left: -34px;
+    left: -35px;
     top: -32px;
     pointer-events: none;
 }
@@ -142,14 +147,14 @@ label:focus {
 .btn.btn-40 ~ .button-icon:after {
     display: block;
     font-size: 1em;
-    content:'s';
+    content: '\e809';
     position: absolute;
     left: -27px;
     top: -26px;
     pointer-events: none;
 }
 
-.btn:enabled:active {
+.btn:enabled:active, a.btn:not(.disabled):active {
     box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05) !important;
     -webkit-transition: box-shadow 0.1s linear;
 }

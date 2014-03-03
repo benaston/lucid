@@ -1,18 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="stylesheets/lucid-style-reset.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/lucid-style-typography.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/lucid-style-table.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/lucid-style-form-elements.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/lucid-style-animation.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/lucid-style-items.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/lucid-style-buttons.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/lucid-style-showcase.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/lucid-style-navigation.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/lucid-style-cube.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/lucid-style-position.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/lucid-style-dialogs.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/lucid.css">
 </head>
 <body class="modal-container modal-visibles">
 <div class="modal-bg">
@@ -388,14 +377,14 @@ Code
         </tr>
         <tr>
             <td>
-                <div class="centered-text">
+                <div class="centered-text btn-container">
                     <button class="btn btn-50">s</button>
                     <div class="label">search</div>
                 </div>
             </td>
             <td><pre>
-&lt;div class=&quot;centered-text&quot;&gt;
-    &lt;button class=&quot;btn btn-80&quot;&gt;s&lt;/button&gt;
+&lt;div class=&quot;centered-text btn-container&quot;&gt;
+    &lt;button class=&quot;btn btn-50&quot;&gt;s&lt;/button&gt;
     &lt;div class=&quot;label&quot;&gt;search&lt;/div&gt;
 &lt;/div&gt;</pre>
             </td>
@@ -467,14 +456,27 @@ Code
         </tr>
         <tr>
             <td>
-                <div class="rotating-button-container centered-text">
-                    <button class="btn btn-80 btn-success btn-rotating" data-is-waiting="false"></button><span class="focus-indicator"></span><span class="pictos button-icon"></span>
+                <div class="centered-text handle handle-search-panel btn-container">
+                    <a href="/searchpanelmode/update?mode=0" class="btn btn-primary btn-50">&#xe800;</a>
+                    <div class="label">show search &amp; favorites</div>
                 </div>
             </td>
-            <td><pre>
-&lt;div class=&quot;rotating-button-container&quot;&gt;
-    &lt;button class=&quot;btn btn-80 btn-success btn-rotating&quot; data-is-waiting=&quot;true&quot;&gt;&lt;/button&gt;
-    &lt;span class=&quot;focus-indicator&quot;&gt;&lt;/span&gt;&lt;span class=&quot;pictos button-icon&quot;&gt;3&lt;/span&gt;
+            <td><pre>&lt;div class=&quot;centered-text handle handle-search-panel btn-container&quot;&gt;
+    &lt;a href=&quot;/searchpanelmode/update?mode=0&quot; class=&quot;btn btn-primary btn-50&quot;&gt;&amp;#59392;&lt;/a&gt;
+    &lt;div class=&quot;label&quot;&gt;show search &amp;amp; favorites&lt;/div&gt;
+&lt;/div&gt;</pre></td>
+            <td>Button with text</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="rotating-button-container centered-text">
+                    <button class="btn btn-80 btn-success btn-rotating" data-is-waiting="false"></button><span class="focus-indicator"></span><span class="button-icon"></span>
+                </div>
+            </td>
+            <td><pre>&lt;div class=&quot;rotating-button-container centered-text&quot;&gt;
+    &lt;button class=&quot;btn btn-80 btn-success btn-rotating&quot; data-is-waiting=&quot;false&quot;&gt;&lt;/button&gt;
+    &lt;span class=&quot;focus-indicator&quot;&gt;&lt;/span&gt;
+    &lt;span class=&quot;button-icon&quot;&gt;&lt;/span&gt;
 &lt;/div&gt;</pre>
             </td>
             <td>Waiting button</td>
@@ -709,6 +711,40 @@ Code
         &lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
+</pre></td>
+            <td>Full-screen dialog.</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="centered-text" onclick="javascript:document.querySelector('.modal-container').classList.toggle('modal-visible')">
+                    <button class="btn btn-80">s</button>
+                    <div class="label">show dialog</div>
+                </div>
+            </td>
+            <td><pre>
+&lt;body class=&quot;modal-container modal-visible&quot; data-modal=&quot;1&quot;&gt;
+	&lt;div class=&quot;main modal-bg&quot;&gt;
+		&lt;!-- content goes here --&gt;
+	&lt;/div&gt;
+	&lt;div id=&quot;delete-favorite-group-confirmation-dialog&quot; class=&quot;modal modal-full-screen&quot;&gt;
+	    &lt;div class=&quot;modal-content-container centered medium&quot;&gt;
+	        &lt;div class=&quot;modal-content-panel&quot;&gt;
+	            &lt;h1&gt;Delete Favorite Group&lt;/h1&gt;
+	            &lt;div class=&quot;message-container&quot;&gt;&lt;p&gt;You have chosen to delete the following group of favorites:&lt;/p&gt;&lt;blockquote&gt;&lt;em&gt;my favorites&lt;/em&gt;&lt;/blockquote&gt;&lt;p&gt;This cannot be undone.&lt;/p&gt;&lt;p&gt;Are you sure you want to delete this group?&lt;/p&gt;&lt;/div&gt;
+	            &lt;ul class=&quot;form-button-container&quot;&gt;
+	                &lt;li class=&quot;centered-text form-button-container-item&quot;&gt;
+	                    &lt;a href=&quot;/deletefavoritegroupconfirmationdialog/destroy&quot; class=&quot;btn btn-80&quot;&gt;*&lt;/a&gt;
+	                    &lt;div class=&quot;label&quot;&gt;cancel&lt;/div&gt;
+	                &lt;/li&gt;
+	                &lt;li class=&quot;centered-text form-button-container-item&quot;&gt;
+	                    &lt;a href=&quot;/favoritegroup/destroy?id=0&quot; class=&quot;btn btn-80 btn-danger&quot;&gt;3&lt;/a&gt;
+	                    &lt;div class=&quot;label&quot;&gt;delete&lt;/div&gt;
+	                &lt;/li&gt;
+	            &lt;/ul&gt;
+	        &lt;/div&gt;
+	    &lt;/div&gt;
+	&lt;/div&gt;
+&lt;body&gt;
 </pre></td>
             <td>Full-screen dialog.</td>
         </tr>
