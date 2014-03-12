@@ -1,81 +1,13 @@
-@font-face {
+.glyph {
     font-family: glyph;
-    src: url("../fonts/fontello.woff");
-    font-weight: normal;
-    font-style: normal;
 }
 
-@font-face {
-    font-family: proxima-nova-100;
-    src: url("../fonts/proxima-nova-100.woff");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: museo-sans-500;
-    src: url("../fonts/museo-sans-500.woff");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: proxima-nova-200;
-    src: url("../fonts/proxima-nova-200.woff");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: proxima-nova-300;
-    src: url("../fonts/proxima-nova-300.woff");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: proxima-nova-400;
-    src: url("../fonts/proxima-nova-400.woff");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: proxima-nova-500;
-    src: url("../fonts/proxima-nova-500.woff");
-    font-weight: normal;
-    font-style: normal;
-}
-
-.logo {
-    margin: 0;
-}
-
-h1.logo {
-    font-size: 3em;
-    font-family: "proxima-nova-500";
-    margin-top: 20px;
-}
-
-h2.logo {
-    font-size: 0.8rem;
-    font-family: "proxima-nova-500";
-}
-
-body, p {
+body {
     font-family: "proxima-nova-400", Arial, sans-serif;
     font-size: 100%;
     line-height: 120%;
     color: #333333;
     -webkit-font-smoothing: antialiased;
-}
-
-body {
-    -webit-user-select:none;
-}
-
-p:not(:last-child) {
-    margin-bottom: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -85,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    margin: 14px 0;
+    margin: 10px 0;
     line-height: 2.1rem;
     font-size: 1.7em;
     font-family: "proxima-nova-100";
@@ -108,10 +40,6 @@ h2 {
     text-align: right;
 }
 
-.centered-text {
-    text-align: center;
-}
-
 h3 {
     margin: 10px 0;
     line-height: 21px;
@@ -128,10 +56,9 @@ h4, h5, h6 {
 }
 
 hr {
-    -webkit-transform: rotate(-5deg);
-    margin: 31px 0;
+    margin: 20px 0;
     border: 0;
-
+    border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
 }
 
@@ -149,10 +76,6 @@ code {
     border: 1px solid #e1e1e8;
 }
 
-.label-btn {
-    font-size: .8rem;
-}
-
 code, pre {
     padding: 0 3px 2px;
     font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
@@ -164,20 +87,13 @@ code, pre {
 }
 
 body {
-    /*-webkit-user-select: none;*/
+    -webkit-user-select: none;
 }
 
 input[type='text'],
 input[type='email'],
-input[type='password'],
-textarea {
-    font-size: 1rem;
+input[type='password'] {
     font-family: "proxima-nova-400", Arial;
-    line-height: 35px;
-}
-
-.pictos {
-    font-family: 'pictos';
 }
 
 .hovering-text {
@@ -224,63 +140,36 @@ a:hover {
     font-size: .8rem;
 }
 
-th, td {
-    text-align: left;
+.modal-content-panel h1 {
+    margin-bottom: 40px;
 }
 
-th {
-    font-style: italic;
+.message-container blockquote {
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.message-container em {
     font-weight: bold;
 }
 
-li {
-    margin-bottom: 7px;
+.message-container p {
+    margin-bottom: 20px;
 }
 
-.font-size-smallest {
-    font-size: .75rem;
+.item-of-interest p {
+    margin-bottom: 2rem;
 }
 
-.font-size-smaller {
-    font-size: .80rem;
+.item-of-interest .location, .item-of-interest .country {
+    font-size: .8rem;
 }
 
-.font-size-small {
-    font-size: .85rem;
+.item-of-interest li {
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
 }
 
-.font-size-normal {
-    font-size: 1rem;
-}
-
-.font-size-large {
-    font-size: 1.2rem;
-}
-
-.font-size-larger {
-    font-size: 1.4rem;
-}
-
-.font-size-largest {
-    font-size: 2rem;
-}
-
-pre {
-    display: block;
-    padding: 9.5px;
-    margin: 0 0 10px;
-    font-size: 13px;
-    line-height: 1.428571429;
-    color: #333;
-    word-break: break-all;
-    word-wrap: break-word;
-    background-color: #f7f7f9;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    pointer-events:all;
-}
-
-.modal-content-panel h1
-{
-    margin-bottom: 40px;
+.item-of-interest ul, .item-of-interest ol {
+    margin-bottom: 20px;
 }

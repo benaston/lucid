@@ -16,7 +16,7 @@ module.exports = function (grunt) {
         src: [
           'public/stylesheets/*.css'
         ],
-        dest: 'public/stylesheets/<%= pkg.name %>.css'
+        dest: 'public/<%= pkg.name %>.css'
       }
     },
     uglify: {
@@ -32,8 +32,8 @@ module.exports = function (grunt) {
     },
     cssmin: {
       css: {
-        src: 'public/stylesheets/<%= pkg.name %>.css',
-        dest: 'public/stylesheets/<%= pkg.name %>.min.css'
+        src: 'public/<%= pkg.name %>.css',
+        dest: 'public/<%= pkg.name %>.min.css'
       }
     },
     qunit: {

@@ -4215,6 +4215,55 @@ this node.*/
 body.modal-container.modal-visible {
     overflow: hidden;
 }
+@font-face {
+    font-family: glyph;
+    src: url('../../fonts/fontello.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: museo-sans-500;
+    src: url('../../fonts/museo-sans-500.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: proxima-nova-100;
+    src: url('../../fonts/proxima-nova-100.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: proxima-nova-200;
+    src: url('../../fonts/proxima-nova-200.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: proxima-nova-300;
+    src: url('../../fonts/proxima-nova-300.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: proxima-nova-400;
+    src: url('../../fonts/proxima-nova-400.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: proxima-nova-500;
+    src: url('../../fonts/proxima-nova-500.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html select,
 html textarea,
 html input[type="text"],
@@ -4613,53 +4662,12 @@ table {
 .table-bordered > tbody > tr:last-child td:last-child {
     border-bottom-right-radius: 7px;
 }
-@font-face {
-    font-family: glyph;
-    src: url("../fonts/fontello.woff");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: proxima-nova-100;
-    src: url("../fonts/proxima-nova-100.woff");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: museo-sans-500;
-    src: url("../fonts/museo-sans-500.woff");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: proxima-nova-200;
-    src: url("../fonts/proxima-nova-200.woff");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: proxima-nova-300;
-    src: url("../fonts/proxima-nova-300.woff");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: proxima-nova-400;
-    src: url("../fonts/proxima-nova-400.woff");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: proxima-nova-500;
-    src: url("../fonts/proxima-nova-500.woff");
-    font-weight: normal;
-    font-style: normal;
+body, p {
+    font-family: 'proxima-nova-500', Arial, sans-serif;
+    font-size: 100%;
+    line-height: 120%;
+    color: #333333;
+    -webkit-font-smoothing: antialiased;
 }
 
 .logo {
@@ -4668,25 +4676,13 @@ table {
 
 h1.logo {
     font-size: 3em;
-    font-family: "proxima-nova-500";
+    font-family: 'proxima-nova-500', Arial, sans-serif;
     margin-top: 20px;
 }
 
 h2.logo {
     font-size: 0.8rem;
-    font-family: "proxima-nova-500";
-}
-
-body, p {
-    font-family: "proxima-nova-400", Arial, sans-serif;
-    font-size: 100%;
-    line-height: 120%;
-    color: #333333;
-    -webkit-font-smoothing: antialiased;
-}
-
-body {
-    -webit-user-select:none;
+    font-family: 'proxima-nova-500', Arial, sans-serif;
 }
 
 p:not(:last-child) {
@@ -4715,18 +4711,6 @@ h2 {
     -webkit-user-select: auto;
 }
 
-.itemMetadata h1 {
-    margin-bottom: 18px;
-}
-
-.itemMetadata h3 {
-    text-align: right;
-}
-
-.centered-text {
-    text-align: center;
-}
-
 h3 {
     margin: 10px 0;
     line-height: 21px;
@@ -4739,7 +4723,19 @@ h3 {
 h4, h5, h6 {
     margin: 10px 0;
     line-height: 20px;
-    font-family: "proxima-nova-400";
+    font-family: 'proxima-nova-500';
+}
+
+.itemMetadata h1 {
+    margin-bottom: 18px;
+}
+
+.itemMetadata h3 {
+    text-align: right;
+}
+
+.centered-text {
+    text-align: center;
 }
 
 hr {
@@ -4778,21 +4774,13 @@ code, pre {
     border-radius: 3px;
 }
 
-body {
-    /*-webkit-user-select: none;*/
-}
-
 input[type='text'],
 input[type='email'],
 input[type='password'],
 textarea {
     font-size: 1rem;
-    font-family: "proxima-nova-400", Arial;
+    font-family: 'proxima-nova-500', Arial;
     line-height: 35px;
-}
-
-.pictos {
-    font-family: 'pictos';
 }
 
 .hovering-text {
@@ -4818,7 +4806,7 @@ a:hover {
 
 .heading-aside {
     font-size: 1rem;
-    font-family: "proxima-nova-400", Arial, sans-serif;
+    font-family: 'proxima-nova-500', Arial, sans-serif;
 }
 
 .field {
@@ -4892,10 +4880,9 @@ pre {
     background-color: #f7f7f9;
     border: 1px solid #ccc;
     border-radius: 4px;
-    pointer-events:all;
+    pointer-events: all;
 }
 
-.modal-content-panel h1
-{
+.modal-content-panel h1 {
     margin-bottom: 40px;
 }
